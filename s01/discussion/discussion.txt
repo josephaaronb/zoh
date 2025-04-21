@@ -1,0 +1,8 @@
+Hello World!
+
+Welcome to Zuitt Open House!
+
+Topics in this ZOH:
+- Git 
+- HTML
+- CSS
