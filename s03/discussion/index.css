@@ -1,0 +1,101 @@
+/* CSS Syntax: 
+	selector {
+			property:value;
+	}
+			
+			*/
+
+	/*Universal Selector*/
+*{font-family: "Courier New", monospace; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*Type Selector*/
+}
+h1{
+	font-family: "Tahoma", sans-serif;
+}
+
+body	{
+	/*background-color: skyblue;*/
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	background-attachment: fixed;
+
+}
+
+section {
+	text-align: center;
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+	/*padding is the space inside the element */
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Class selector*/
+.nav-link {font-size: 18px;
+}
+
+.title {
+	color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.module-card {
+	height: 300px;
+	width: 800px;
+	padding: 50px;
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.module-image {
+	height: 200px;
+	width: 200px;
+
+}
+
+/*ID selector #*/
+#hello {
+	color: black;
+	font-size: 2rem;
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#modules {
+	margin-top: 30px,
+	margin-bottom: 30px;
+}
+
+#moduleheader {
+	margin-top: 30px;
+
+}
